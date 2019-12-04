@@ -1,3 +1,5 @@
+package divyavit.hitwicket.chess;
+import divyavit.hitwicket.chess.*;
 public class Game {
     private Board board = new Board();
     private Player white;
