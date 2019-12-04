@@ -1,3 +1,5 @@
+package divyavit.hitwicket.chess;
+import divyavit.hitwicket.chess.*;
 public class Board {
     private Spot[][] spots = new Spot[5][5];
 
