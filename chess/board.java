@@ -1,5 +1,5 @@
 public class Board {
-    private Spot[][] spots = new Spot[8][8];
+    private Spot[][] spots = new Spot[5][5];
 
     public Board() {
         super();
