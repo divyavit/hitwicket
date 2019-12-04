@@ -1,3 +1,5 @@
+package divyavit.hitwicket.chess;
+import divyavit.hitwicket.chess.*;
 public class Knight extends Piece{
 
     public Knight(boolean available, int x, int y) {
