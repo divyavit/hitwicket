@@ -1,3 +1,5 @@
+package divyavit.hitwicket.chess;
+import divyavit.hitwicket.chess.*;
 public class Piece {
     private boolean available;
     private int x;
@@ -33,7 +35,7 @@ public class Piece {
     public boolean isValid(Board board, int fromX, int fromY, int toX, int toY){
         if(toX == fromX && toY == fromY)
             return false; //cannot move nothing
-        if(toX < 0 || toX > 7 || fromX < 0 || fromX > 7 || toY < 0 || toY > 7 || fromY <0 || fromY > 7)
+        if(toX < 0 || toX > 5 || fromX < 0 || fromX > 5 || toY < 0 || toY > 5 || fromY <0 || fromY > 5)
             return false;
         return true;
     }
