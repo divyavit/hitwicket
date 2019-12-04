@@ -1,3 +1,5 @@
+package divyavit.hitwicket.chess;
+import divyavit.hitwicket.chess.*;
 public class Spot {
     int x;
     int y;
