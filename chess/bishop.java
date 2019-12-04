@@ -1,3 +1,5 @@
+package divyavit.hitwicket.chess;
+import divyavit.hitwicket.chess.*;
 public class Bishop extends Piece{
 
     public Bishop(boolean available, int x, int y) {
